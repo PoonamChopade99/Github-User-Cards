@@ -7,21 +7,25 @@
 body {
     margin: 1rem;
     background-image: radial-gradient(circle, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .main {
     width: 350px;
-    background-color: #2ee74d;
+    height: 56px;
     margin: auto;
-    border-radius: 10px;
 }
 
 .main h1 {
     text-align: center;
-    /* color: rgb(63, 63, 83); */
     color: rgb(3, 43, 92);
-
-    margin: 1rem;
+    background-color: #2ee74d;
+    margin: .5rem;
+    padding: 0.5rem;
+    border-radius: 10px;
 }
 
 .card-container {
@@ -52,7 +56,7 @@ body {
 }
 
 .color {
-    color: rgb(68, 64, 64);
+    color: rgb(51, 46, 46);
 }
 
 .profileBtn {
@@ -77,4 +81,12 @@ footer {
     text-align: center;
     background-color: rgb(5, 28, 57);
     color: #f5f5f5;
+    width: 100%;
+    margin-top: auto;
+}
+
+footer p{
+    margin: 0;
+    padding: 0;
+    line-height: 1.5rem;
 }
